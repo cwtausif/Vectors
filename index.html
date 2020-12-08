@@ -14,15 +14,7 @@
         <!-- Theme style -->
         <link rel="stylesheet" href="dist/css/adminlte.min.css">
     </head>
-    <!--
-    `body` tag options:
-    
-      Apply one or more of the following classes to to the body tag
-      to get the desired effect
-    
-      * sidebar-collapse
-      * sidebar-mini
-    -->
+ 
     <body class="hold-transition sidebar-mini">
         <div class="wrapper">
             <!-- Navbar -->
@@ -33,6 +25,7 @@
                         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                     </li>
                     <li class="nav-item d-none d-sm-inline-block">
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
 
                 </ul>
@@ -46,8 +39,8 @@
             <aside class="main-sidebar sidebar-dark-primary elevation-4">
                 <!-- Brand Logo -->
                 <a href="index.html" class="brand-link">
-                    <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                    <span class="brand-text font-weight-light">AdminLTE 3</span>
+                    <img src="https://img.icons8.com/bubbles/50/000000/apple-health.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"/>
+                    <span class="brand-text font-weight-light">HEALTHEX</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -55,10 +48,11 @@
                     <!-- Sidebar user panel (optional) -->
                     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                         <div class="image">
-                            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                            <img src="https://img.icons8.com/ultraviolet/50/000000/guest-male.png"class="img-circle elevation-2" alt="User Image"/>
+                            
                         </div>
                         <div class="info">
-                            <a href="#" class="d-block">Alexander Pierce</a>
+                            <a href="#" class="d-block"></a>
                         </div>
                     </div>
 
@@ -67,12 +61,42 @@
                     <!-- Sidebar Menu -->
                     <nav class="mt-2">
                         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                     
+                            <!-- Add icons to the links using the .nav-icon class
+                                 with font-awesome or any other icon font library -->
+                            <!--          <li class="nav-item menu-open">
+                                        <a href="#" class="nav-link active">
+                                          <i class="nav-icon fas fa-tachometer-alt"></i>
+                                          <p>
+                                            Dashboard
+                                            <i class="right fas fa-angle-left"></i>
+                                          </p>
+                                        </a>
+                                        <ul class="nav nav-treeview">
+                                          <li class="nav-item">
+                                            <a href="./index_one.html" class="nav-link">
+                                              <i class="far fa-circle nav-icon"></i>
+                                              <p>Dashboard v1</p>
+                                            </a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a href="./index2.html" class="nav-link">
+                                              <i class="far fa-circle nav-icon"></i>
+                                              <p>Dashboard v2</p>
+                                            </a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a href="./index.html" class="nav-link active">
+                                              <i class="far fa-circle nav-icon"></i>
+                                              <p>Dashboard v3</p>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </li>-->
                             <li class="nav-item">
                                 <a href="index.html" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt"></i>
                                     <p>
-                                        Maps
+                                        Dashboard
                                     </p>
                                 </a>
                             </li>
@@ -81,7 +105,7 @@
                                 <a href="map.html" class="nav-link">
                                     <i class="nav-icon fa fa-map-marker-alt"></i>
                                     <p>
-                                        MAP
+                                        Search for Hospitals 
                                     </p>
                                 </a>
                             </li>
@@ -96,13 +120,23 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="blood_bank.html" class="nav-link">
+                                <a href="blod_bank.html" class="nav-link">
                                     <i class="nav-icon fas fa-heart"></i>
                                     <p>
                                         Blood Bank
                                     </p>
                                 </a>
                             </li>
+
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                                    <p>
+                                        About Us
+                                    </p>
+                                </a>
+                            </li>
+                            
 
                         </ul>
 
@@ -153,11 +187,11 @@
                                                     <span class="info-box-icon bg-info elevation-1"><i class="fa fa-h-square"></i></span>
 
                                                     <div class="info-box-content">
-                                                        <span class="info-box-text">Jinnah Hospital</span>
+                                                       <a href="http://www.jpmc.edu.pk/"> <span class="info-box-text" >Jinnah Hospital</span></a>
                                                         <span class="info-box-number">
-                                                            Patients:  <small>300</small> <br />
-                                                            Ventilator: <small>300</small> <br />
-                                                            Beds: <small>300</small>
+                                                            ICUs:  <small>300</small> <br />
+                                                            Ventilator: <small>40</small> <br />
+                                                            Beds: <small>250</small>
 
                                                         </span>
                                                     </div>
@@ -172,11 +206,11 @@
                                                     <span class="info-box-icon bg-info elevation-1"><i class="fa fa-h-square"></i></span>
 
                                                     <div class="info-box-content">
-                                                        <span class="info-box-text">Mayo Hospital</span>
+                                                        <a href="https://www.mayohospital.gop.pk/"> <span class="info-box-text" >Mayo Hospital</span></a>
                                                         <span class="info-box-number">
-                                                            Patients:  <small>300</small> <br />
-                                                            Ventilator: <small>300</small> <br />
-                                                            Beds: <small>300</small>
+                                                            ICUs:  <small>5</small> <br />
+                                                            Ventilator: <small>50</small> <br />
+                                                            Beds: <small>150</small>
 
                                                         </span>
                                                     </div>
@@ -191,11 +225,11 @@
                                                     <span class="info-box-icon bg-info elevation-1"><i class="fa fa-h-square"></i></span>
 
                                                     <div class="info-box-content">
-                                                        <span class="info-box-text">Lahore General Hospital</span>
+                                                        <a href="https://lgh.punjab.gov.pk/"> <span class="info-box-text" >Lahore General Hospital</span></a>
                                                         <span class="info-box-number">
-                                                            Patients:  <small>300</small> <br />
-                                                            Ventilator: <small>300</small> <br />
-                                                            Beds: <small>300</small>
+                                                            ICUs:  <small>11</small> <br />
+                                                            Ventilator: <small>25</small> <br />
+                                                            Beds: <small>335</small>
 
                                                         </span>
                                                     </div>
@@ -210,11 +244,11 @@
                                                     <span class="info-box-icon bg-info elevation-1"><i class="fa fa-h-square"></i></span>
 
                                                     <div class="info-box-content">
-                                                        <span class="info-box-text">Services Hospital</span>
+                                                        <a href="http://www.sims.edu.pk/shl.aspx"> <span class="info-box-text" >Services Hospital</span></a>
                                                         <span class="info-box-number">
-                                                            Patients:  <small>300</small> <br />
-                                                            Ventilator: <small>300</small> <br />
-                                                            Beds: <small>300</small>
+                                                            ICUs:  <small>19</small> <br />
+                                                            Ventilator: <small>15</small> <br />
+                                                            Beds: <small>205</small>
 
                                                         </span>
                                                     </div>
@@ -229,11 +263,11 @@
                                                     <span class="info-box-icon bg-info elevation-1"><i class="fa fa-h-square"></i></span>
 
                                                     <div class="info-box-content">
-                                                        <span class="info-box-text">Sheikh Zaid Hospital</span>
+                                                        <a href="https://szmc.org.pk/"> <span class="info-box-text" >Sheikh Zaid Hospital</span></a>
                                                         <span class="info-box-number">
-                                                            Patients:  <small>300</small> <br />
-                                                            Ventilator: <small>300</small> <br />
-                                                            Beds: <small>300</small>
+                                                            ICUs:  <small>15</small> <br />
+                                                            Ventilator: <small>10</small> <br />
+                                                            Beds: <small>250</small>
 
                                                         </span>
                                                     </div>
@@ -254,11 +288,22 @@
                                 <div class="card">
                                     <div class="card-header border-0">
                                         <div class="d-flex justify-content-between">
-                                            <h3 class="card-title">Cases in Pakistan</h3>
+                                            <h3 class="card-title"><strong>Pakistan</strong></h3>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                       
+                                        <div class="d-flex">
+                                            <p class="d-flex flex-column">
+                                               <span class="text-bold text-lg">COVID-19 CASES</span>
+                                                <span> </span>
+                                            </p>
+                                            <p class="ml-auto d-flex flex-column text-right">
+                                                <span class="text-success">
+                                                    <i class="fas fa-arrow-up"></i> 12.5%
+                                                </span>
+                                                <span class="text-muted">Since last week</span>
+                                            </p>
+                                        </div>
                                         <!-- /.d-flex -->
 
                                         <div class="position-relative mb-4">
@@ -294,10 +339,10 @@
 
             <!-- Main Footer -->
             <footer class="main-footer">
-                <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+                <strong>Copyright &copy; 2020-2021 <a href="Home.html">Team Vectors</a>.</strong>
                 All rights reserved.
                 <div class="float-right d-none d-sm-inline-block">
-                    <b>Version</b> 3.1.0-rc
+                    <b>Version</b> 1.1.0-vrc
                 </div>
             </footer>
         </div>
